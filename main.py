@@ -57,6 +57,7 @@ def chat(user_input, hist):
 def clear_chat():
     return "", []
 
+
 page = gr.Blocks(
     title="Chat with Einstein",
     theme=gr.themes.Soft()
